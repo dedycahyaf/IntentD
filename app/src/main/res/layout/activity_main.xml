@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/nim_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="nim"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/nama_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="nama"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/nilai_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="nilai"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_proses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#84A888"
+        android:text="PROSES" />
+</LinearLayout>
